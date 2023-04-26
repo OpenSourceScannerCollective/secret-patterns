@@ -1,0 +1,5067 @@
+{
+    "etherscan":
+    [
+        {
+            "key": "\b([0-9A-Z]{34})\b"
+        }
+    ],
+    "zendeskapi":
+    [
+        {
+            "key": "([A-Za-z0-9_-]{40})"
+        },
+        {
+            "key": "\b([a-zA-Z-0-9-]{5,16}\\@[a-zA-Z-0-9]{4,16}\\.[a-zA-Z-0-9]{3,6})\b"
+        },
+        {
+            "key": "\b([a-zA-Z-0-9]{3,16}\\.zendesk\\.com)\b"
+        }
+    ],
+    "myintervals":
+    [
+        {
+            "key": "\b([0-9a-z]{11})\b"
+        }
+    ],
+    "uclassify":
+    [
+        {
+            "key": "\b([a-z0-9A-Z]{12})\b"
+        }
+    ],
+    "shodankey":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{32})\b"
+        }
+    ],
+    "abuseipdb":
+    [
+        {
+            "key": "\b([a-z0-9]{80})\b"
+        }
+    ],
+    "moderation":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{36}\\.[a-zA-Z0-9]{115}\\.[a-zA-Z0-9_]{43})\b"
+        }
+    ],
+    "revampcrm":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{40}\b)"
+        },
+        {
+            "key": "\b([a-zA-Z0-9.-@]{25,30})\b"
+        }
+    ],
+    "iconfinder":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{64})\b"
+        }
+    ],
+    "appfollow":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{20})\b"
+        }
+    ],
+    "d7network":
+    [
+        {
+            "key": "\b([a-zA-Z0-9\\W\\S]{23}\\=)"
+        }
+    ],
+    "surveysparrow":
+    [
+        {
+            "key": "\b([a-zA-Z0-9-_]{88})\b"
+        }
+    ],
+    "skybiometry":
+    [
+        {
+            "key": "\b([0-9a-z]{25,26})\b"
+        }
+    ],
+    "alchemy":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{23}_[0-9a-zA-Z]{8})\b"
+        }
+    ],
+    "geocode":
+    [
+        {
+            "key": "\b([a-z0-9]{28})\b"
+        }
+    ],
+    "snipcart":
+    [
+        {
+            "key": "\b([0-9A-Za-z_]{75})\b"
+        }
+    ],
+    "stripe":
+    [
+        {
+            "key": "[rs]k_live_[a-zA-Z0-9]{20,30}"
+        }
+    ],
+    "meaningcloud":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "twilio":
+    [
+        {
+            "key": "(?i)sid.{0,20}AC[0-9a-f]{32}"
+        },
+        {
+            "key": "\bAC[0-9a-f]{32}\b"
+        },
+        {
+            "key": "\b[0-9a-f]{32}\b"
+        }
+    ],
+    "zapierwebhook":
+    [
+        {
+            "key": "(https://hooks\\.zapier\\.com/hooks/catch/[A-Za-z0-9/]{16})"
+        }
+    ],
+    "openai":
+    [
+        {
+            "key": "\b((?:sk)-[a-zA-Z0-9]{48})\b"
+        }
+    ],
+    "ibmclouduserkey":
+    [
+        {
+            "key": "\b([A-Za-z0-9_-]{44})\b"
+        }
+    ],
+    "smartsheets":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{37})\b"
+        }
+    ],
+    "codemagic":
+    [
+        {
+            "key": "\b([a-z0-9]{20})\b"
+        }
+    ],
+    "uploadcare":
+    [
+        {
+            "key": "\b([a-z0-9]{20})\b"
+        }
+    ],
+    "privatekey":
+    [
+        {
+            "key": "(?i)-----\\s*?BEGIN[ A-Z0-9_-]*?PRIVATE KEY\\s*?-----[\\s\\S]*?----\\s*?END[ A-Z0-9_-]*? PRIVATE KEY\\s*?-----"
+        }
+    ],
+    "disqus":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{64})\b"
+        }
+    ],
+    "captaindata":
+    [
+        {
+            "key": "\b([0-9a-f]{64})\b"
+        },
+        {
+            "key": "\b([0-9a-f]{8}\\-[0-9a-f]{4}\\-[0-9a-f]{4}\\-[0-9a-f]{4}\\-[0-9a-f]{12})\b"
+        }
+    ],
+    "coinmarketcap":
+    [
+        {
+            "key": "\b([0-9Aa-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        }
+    ],
+    "apifonica":
+    [
+        {
+            "key": "\b([0-9a-z]{11}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\b"
+        }
+    ],
+    "crossbrowsertesting":
+    [
+        {
+            "key": "\b([0-9a-z]{16})\b"
+        },
+        {
+            "key": "\b([a-z0-9]{4,25}@[a-zA-Z0-9]{2,12}.[a-zA-Z0-9]{2,6})\b"
+        }
+    ],
+    "groovehq":
+    [
+        {
+            "key": "\b([a-z0-9A-Z]{64})"
+        }
+    ],
+    "uplead":
+    [
+        {
+            "key": "\b([a-z0-9-]{32})\b"
+        }
+    ],
+    "statuspal":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{32})\b"
+        }
+    ],
+    "thinkific":
+    [
+        {
+            "key": "\b([0-9a-f]{32})\b"
+        },
+        {
+            "key": "\b([0-9A-Za-z]{4,40})\b"
+        }
+    ],
+    "cloverly":
+    [
+        {
+            "key": "\b([a-z0-9:_]{28})\b"
+        }
+    ],
+    "cloudelements":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{43})\b"
+        },
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "paydirtapp":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "dynalist":
+    [
+        {
+            "key": "\b([a-zA-Z0-9-_]{128})\b"
+        }
+    ],
+    "twelvedata":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "leadfeeder":
+    [
+        {
+            "key": "\b([a-zA-Z0-9-]{43})\b"
+        }
+    ],
+    "onepagecrm":
+    [
+        {
+            "key": "\b([a-zA-Z0-9=]{44})"
+        },
+        {
+            "key": "\b([a-z0-9]{24})\b"
+        }
+    ],
+    "newrelicpersonalapikey":
+    [
+        {
+            "key": "\b([A-Za-z0-9_\\.]{4}-[A-Za-z0-9_\\.]{42})\b"
+        }
+    ],
+    "npmtoken":
+    [
+        {
+            "key": "\b([0-9Aa-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        }
+    ],
+    "restpack":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{48})\b"
+        }
+    ],
+    "rentman":
+    [
+        {
+            "key": "\b(ey[a-zA-Z0-9]{34}.ey[a-zA-Z0-9._-]{250,300})\b"
+        }
+    ],
+    "ringcentral":
+    [
+        {
+            "key": "\b([0-9A-Za-z_-]{22})\b"
+        },
+        {
+            "key": "\b(https://www.[0-9A-Za-z_-]{1,}.com)\b"
+        }
+    ],
+    "plaidkey":
+    [
+        {
+            "key": "\b([a-z0-9]{30})\b"
+        },
+        {
+            "key": "\b([a-z0-9]{24})\b"
+        }
+    ],
+    "apify":
+    [
+        {
+            "key": "\b(apify\\_api\\_[a-zA-Z-0-9]{36})\b"
+        }
+    ],
+    "happyscribe":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{24})\b"
+        }
+    ],
+    "smooch":
+    [
+        {
+            "key": "\b(act_[0-9a-z]{24})\b"
+        },
+        {
+            "key": "\b([0-9a-zA-Z_-]{86})\b"
+        }
+    ],
+    "scrapestack":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "nitro":
+    [
+        {
+            "key": "\b([0-9a-f]{32})\b"
+        }
+    ],
+    "airtableapikey":
+    [
+        {
+            "key": "(app[a-zA-Z0-9_-]{14})"
+        },
+        {
+            "key": "\b(key[a-zA-Z0-9_-]{14})\b"
+        }
+    ],
+    "teamgate":
+    [
+        {
+            "key": "\b([a-z0-9]{40})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9]{80})\b"
+        }
+    ],
+    "bulbul":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "aviationstack":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "clicksendsms":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{44})\b"
+        }
+    ],
+    "asanaoauth":
+    [
+        {
+            "key": "\b([a-z/:0-9]{51})\b"
+        }
+    ],
+    "aletheiaapi":
+    [
+        {
+            "key": "\b([A-Z0-9]{32})\b"
+        }
+    ],
+    "pdflayer":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "autopilot":
+    [
+        {
+            "key": "\b([0-9a-f]{32})\b"
+        }
+    ],
+    "teamworkspaces":
+    [
+        {
+            "key": "\b(tkn\\.v1_[0-9A-Za-z]{71}=[ \r\n]{1})"
+        }
+    ],
+    "transferwise":
+    [
+        {
+            "key": "\b([0-9a-f-]{8}-[0-9a-f-]{4}-[0-9a-f-]{4}-[0-9a-f-]{4}-[0-9a-f-]{12})\b"
+        }
+    ],
+    "numverify":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "moosend":
+    [
+        {
+            "key": "\b([0-9Aa-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        }
+    ],
+    "cloudsmith":
+    [
+        {
+            "key": "\b([0-9a-f]{40})\b"
+        }
+    ],
+    "checklyhq":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "imagekit":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_=]{36})"
+        }
+    ],
+    "amadeus":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{32})\b"
+        },
+        "\b([0-9A-Za-z]{16})\b"
+    ],
+    "gocardless":
+    [
+        {
+            "key": "\b(live_[0-9A-Za-z\\_\\-]{40}[ \" }'\r\n]{1})"
+        }
+    ],
+    "calendarific":
+    [
+        {
+            "key": "\b([a-z0-9]{40})\b"
+        }
+    ],
+    "enablex":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{36})\b"
+        },
+        {
+            "key": "\b([a-z0-9]{24})\b"
+        }
+    ],
+    "gitter":
+    [
+        {
+            "key": "\b([a-z0-9-]{40})\b"
+        }
+    ],
+    "beamer":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_+/]{45}=)"
+        }
+    ],
+    "getemails":
+    [
+        {
+            "key": "\b([a-z0-9-]{26})\b"
+        },
+        {
+            "key": "\b([a-z0-9-]{18})\b"
+        }
+    ],
+    "splunkobservabilitytoken":
+    [
+        {
+            "key": "\b([a-z0-9A-Z]{22})\b"
+        }
+    ],
+    "zerobounce":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "collect":
+    [
+        {
+            "key": "\b([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        }
+    ],
+    "front":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{36}.[0-9a-zA-Z\\.\\-\\_]{188,244})\b"
+        }
+    ],
+    "delighted":
+    [
+        {
+            "key": "\b([a-z0-9A-Z]{32})\b"
+        }
+    ],
+    "uri":
+    [
+        {
+            "key": "\b(?:https?:)?//[\\S]{3,50}:([\\S]{3,50})@[-.%\\W/:]+\b"
+        }
+    ],
+    "dfuse":
+    [
+        {
+            "key": "\b(web\\_[0-9a-z]{32})\b"
+        }
+    ],
+    "integromat":
+    [
+        {
+            "key": "\b([a-z0-9-]{36})\b"
+        }
+    ],
+    "openweather":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "whoxy":
+    [
+        {
+            "key": "\b([0-9a-z]{33})\b"
+        }
+    ],
+    "algoliaadminkey":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{32})\b"
+        },
+        {
+            "key": "\b([A-Z0-9]{10})\b"
+        }
+    ],
+    "bugherd":
+    [
+        {
+            "key": "\b([0-9a-z]{22})\b"
+        }
+    ],
+    "fulcrum":
+    [
+        {
+            "key": "\b([a-z0-9]{80})\b"
+        }
+    ],
+    "geoapify":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "sentiment":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{20})\b"
+        },
+        {
+            "key": "\b([0-9]{17})\b"
+        }
+    ],
+    "blogger":
+    [
+        {
+            "key": "\b([0-9A-Za-z-]{39})\b"
+        }
+    ],
+    "buildkite":
+    [
+        {
+            "key": "\b([a-z0-9]{40})\b"
+        }
+    ],
+    "webscraping":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{32})\b"
+        }
+    ],
+    "allsports":
+    [
+        {
+            "key": "\b([0-9a-z]{64})\b"
+        }
+    ],
+    "onedesk":
+    [
+        {
+            "key": "\b([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\\.[a-z]+)\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9!=@#$%^]{8,64})"
+        }
+    ],
+    "prodpad":
+    [
+        {
+            "key": "\b([a-f0-9]{64})\b"
+        }
+    ],
+    "image":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{22}[0-9a-zA-Z\\=]{2})"
+        }
+    ],
+    "surveybot":
+    [
+        {
+            "key": "\b([A-Za-z0-9-]{80})\b"
+        }
+    ],
+    "twitch":
+    [
+        {
+            "key": "\b([0-9a-z]{30})\b"
+        }
+    ],
+    "nftport":
+    [
+        {
+            "key": "\b([a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12})\b"
+        }
+    ],
+    "restpackhtmltopdfapi":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{48})\b"
+        }
+    ],
+    "caflou":
+    [
+        {
+            "key": "\b([a-bA-Z0-9\\S]{155})\b"
+        }
+    ],
+    "uptimerobot":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{9}-[a-zA-Z0-9]{24})\b"
+        }
+    ],
+    "npmtokenv":
+    [
+        {
+            "key": "(npm_[0-9a-zA-Z]{36})"
+        }
+    ],
+    "caspio":
+    [
+        {
+            "key": "\b([a-z0-9]{50})\b"
+        },
+        "\b([a-z0-9]{8})\b"
+    ],
+    "clinchpad":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "ipstack":
+    [
+        {
+            "key": "\b([a-fA-f0-9]{32})\b"
+        }
+    ],
+    "openuv":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "prospectio":
+    [
+        {
+            "key": "\b([a-z0-9A-Z-]{50})\b"
+        }
+    ],
+    "blitapp":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_-]{39})\b"
+        }
+    ],
+    "nimble":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{30})\b"
+        }
+    ],
+    "signaturit":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{86})\b"
+        }
+    ],
+    "statuspage":
+    [
+        {
+            "key": "\b([0-9a-z-]{36})\b"
+        }
+    ],
+    "clarifai":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{32})\b"
+        }
+    ],
+    "worksnaps":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{40})\b"
+        }
+    ],
+    "cicero":
+    [
+        {
+            "key": "\b([0-9a-z]{40})\b"
+        }
+    ],
+    "carboninterface":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{21})\b"
+        }
+    ],
+    "customerguru":
+    [
+        {
+            "key": "\b([a-z0-9A-Z]{30})\b"
+        },
+        {
+            "key": "\b([a-z0-9A-Z]{50})\b"
+        }
+    ],
+    "virustotal":
+    [
+        {
+            "key": "\b([a-f0-9]{64})\b"
+        }
+    ],
+    "browserstack":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{20})\b"
+        },
+        {
+            "key": "\b([a-zA-Z\\d]{3,18}[._-]+[a-zA-Z\\d]{6})\b"
+        }
+    ],
+    "jumpcloud":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{40})\b"
+        }
+    ],
+    "cloudimage":
+    [
+        {
+            "key": "\b([a-z0-9_]{30})\b"
+        }
+    ],
+    "planviewleankit":
+    [
+        {
+            "key": "\b([0-9a-f]{128})\b"
+        },
+        {
+            "key": "(?:subdomain).\b([a-zA-Z][a-zA-Z0-9.-]{1,23}[a-zA-Z0-9])\b"
+        }
+    ],
+    "api2cart":
+    [
+        {
+            "key": "\b([0-9a-f]{32})\b"
+        }
+    ],
+    "wepay":
+    [
+        {
+            "key": "\b(\\d{6})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9_?]{62})\b"
+        }
+    ],
+    "viewneo":
+    [
+        {
+            "key": "\b([a-z0-9A-Z]{120,300}.[a-z0-9A-Z]{150,300}.[a-z0-9A-Z-_]{600,800})"
+        }
+    ],
+    "purestake":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{40})\b"
+        }
+    ],
+    "twist":
+    [
+        {
+            "key": "\b([0-9a-f:]{40,47})\b"
+        }
+    ],
+    "billomat":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        },
+        {
+            "key": "\b([0-9a-z]{1,})\b"
+        }
+    ],
+    "baseapiio":
+    [
+        {
+            "key": "\b([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        }
+    ],
+    "linenotify":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{43})\b"
+        }
+    ],
+    "unsplash":
+    [
+        {
+            "key": "\b([0-9A-Za-z_]{43})\b"
+        }
+    ],
+    "flatio":
+    [
+        {
+            "key": "\b([0-9a-z]{128})\b"
+        }
+    ],
+    "clockify":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{48})\b"
+        }
+    ],
+    "dotmailer":
+    [
+        {
+            "key": "\b(apiuser-[a-z0-9]{12}@apiconnector.com)\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9\\S]{8,24})\b"
+        }
+    ],
+    "mailmodo":
+    [
+        {
+            "key": "\b([A-Z0-9]{7}-[A-Z0-9]{7}-[A-Z0-9]{7}-[A-Z0-9]{7})\b"
+        }
+    ],
+    "liveagent":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{32})\b"
+        }
+    ],
+    "mockaroo":
+    [
+        {
+            "key": "\b([0-9a-z]{8})\b"
+        }
+    ],
+    "tiingo":
+    [
+        {
+            "key": "\b([0-9a-z]{40})\b"
+        }
+    ],
+    "centralstationcrm":
+    [
+        {
+            "key": "\b([a-z0-9]{30})\b"
+        }
+    ],
+    "swiftype":
+    [
+        {
+            "key": "\b([a-zA-z-0-9]{6}\\_[a-zA-z-0-9]{6}\\-[a-zA-z-0-9]{6})\b"
+        }
+    ],
+    "cliengo":
+    [
+        {
+            "key": "\b([0-9a-f]{8}\\-[0-9a-f]{4}\\-[0-9a-f]{4}\\-[0-9a-f]{4}\\-[0-9a-f]{12})\b"
+        }
+    ],
+    "stockdata":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{40})\b"
+        }
+    ],
+    "kraken":
+    [
+        {
+            "key": "\b([0-9A-Za-z/\\+=]{56}[ \" }'\r\n]{1})"
+        },
+        {
+            "key": "\b([0-9A-Za-z/\\+=]{86,88}[ \"'\r\n]{1})"
+        }
+    ],
+    "cryptocompare":
+    [
+        {
+            "key": "\b([a-z-0-9]{64})\b"
+        }
+    ],
+    "linkpreview":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{32})\b"
+        }
+    ],
+    "appcues":
+    [
+        {
+            "key": "\b([a-z0-9-]{36})\b"
+        },
+        {
+            "key": "\b([a-z0-9-]{39})\b"
+        },
+        {
+            "key": "\b([0-9]{5})\b"
+        }
+    ],
+    "blazemeter":
+    [
+        {
+            "key": "\b([0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\b"
+        }
+    ],
+    "mapbox":
+    [
+        {
+            "key": "([a-zA-Z-0-9]{4,32})"
+        },
+        "\b(sk\\.[a-zA-Z-0-9\\.]{80,240})\b"
+    ],
+    "tyntec":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{32})\b"
+        }
+    ],
+    "razorpay":
+    [
+        {
+            "key": "(?i)\brzp_live_\\W{10,20}\b"
+        },
+        {
+            "key": "([A-Za-z0-9]{20,50})"
+        }
+    ],
+    "appointedd":
+    [
+        {
+            "key": "\b([a-zA-Z0-9=+]{88})"
+        }
+    ],
+    "ritekit":
+    [
+        {
+            "key": "\b([0-9a-f]{44})\b"
+        }
+    ],
+    "nethunt":
+    [
+        {
+            "key": "\b([a-z0-9-\\S]{36})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9.-@]{25,30})\b"
+        }
+    ],
+    "spotifykey":
+    [
+        {
+            "key": "\b([A-Za-z0-9]{32})\b"
+        }
+    ],
+    "dandelion":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "convier":
+    [
+        {
+            "key": "\b([0-9]{2}\\|[a-zA-Z0-9]{40})\b"
+        }
+    ],
+    "ipquality":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "borgbase":
+    [
+        {
+            "key": "\b([a-zA-Z0-9/_.-]{148,152})\b"
+        }
+    ],
+    "posthog":
+    [
+        {
+            "key": "\b(phc_[a-zA-Z0-9_]{43})\b"
+        }
+    ],
+    "oopspam":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{40})\b"
+        }
+    ],
+    "stormglass":
+    [
+        {
+            "key": "\b([0-9Aa-z-]{73})\b"
+        }
+    ],
+    "rebrandly":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_]{32})\b"
+        }
+    ],
+    "myfreshworks":
+    [
+        {
+            "key": "\b([a-z0-9A-Z-]{22})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9-_]{2,20})\b"
+        }
+    ],
+    "scraperapi":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "customerio":
+    [
+        {
+            "key": "\b([a-z0-9A-Z]{20})\b"
+        }
+    ],
+    "moralis":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{64})\b"
+        }
+    ],
+    "heatmapapi":
+    [
+        {
+            "key": "\b([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        }
+    ],
+    "madkudu":
+    [
+        {
+            "key": "\b([0-9a-f]{32})\b"
+        }
+    ],
+    "packagecloud":
+    [
+        {
+            "key": "\b([0-9a-f]{48})\b"
+        }
+    ],
+    "pusherchannelkey":
+    [
+        {
+            "key": "\b([0-9]{7})\b"
+        },
+        {
+            "key": "\b([a-z0-9]{20})\b"
+        }
+    ],
+    "digitaloceanv":
+    [
+        {
+            "key": "\b((?:dop|doo|dor)_v1_[a-f0-9]{64})\b"
+        }
+    ],
+    "scrapeowl":
+    [
+        {
+            "key": "\b([0-9a-z]{30})\b"
+        }
+    ],
+    "pubnubsubscriptionkey":
+    [
+        {
+            "key": "\b(sub-c-[0-9a-z]{8}-[a-z]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12})\b"
+        }
+    ],
+    "financialmodelingprep":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{32})\b"
+        }
+    ],
+    "aws":
+    [
+        {
+            "key": "\b((?:AKIA|ABIA|ACCA|ASIA)[0-9A-Z]{16})\b"
+        },
+        {
+            "key": "[^A-Za-z0-9+/]{0,1}([A-Za-z0-9+/]{40})[^A-Za-z0-9+/]{0,1}"
+        },
+        {
+            "key": "[a-f0-9]{40}"
+        }
+    ],
+    "slack":
+    [
+        {
+            "key": "xoxb\\-[0-9]{10,13}\\-[0-9]{10,13}[a-zA-Z0-9\\-]*"
+        }
+    ],
+    "graphhopper":
+    [
+        {
+            "key": "\b([a-z0-9-]{36})\b"
+        }
+    ],
+    "loginradius":
+    [
+        {
+            "key": "\b([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        }
+    ],
+    "clickuppersonaltoken":
+    [
+        {
+            "key": "\b(pk_[0-9]{8}_[0-9A-Z]{32})\b"
+        }
+    ],
+    "kickbox":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_]+[a-zA-Z0-9]{64})\b"
+        }
+    ],
+    "humanity":
+    [
+        {
+            "key": "\b([0-9a-z]{40})\b"
+        }
+    ],
+    "rechargepayments":
+    [
+        {
+            "key": "\bsk(_test)?_(1|2|3|5|10)x[123]_[0-9a-fA-F]{64}\b"
+        },
+        {
+            "key": "\b[0-9a-fA-F]{56}\b"
+        },
+        {
+            "key": "\b[0-9a-fA-F]{32}\b"
+        }
+    ],
+    "insightly":
+    [
+        {
+            "key": "\b([a-z0-9-]{36})\b"
+        }
+    ],
+    "onwaterio":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_-]{20})\b"
+        }
+    ],
+    "mailgun":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9]{72})\b"
+        }
+    ],
+    "selectpdf":
+    [
+        {
+            "key": "\b([a-z0-9-]{36})\b"
+        }
+    ],
+    "dyspatch":
+    [
+        {
+            "key": "\b([A-Z0-9]{52})\b"
+        }
+    ],
+    "userflow":
+    [
+        {
+            "key": "\b([0-9a-z_]{29})\b"
+        }
+    ],
+    "fibery":
+    [
+        {
+            "key": "\b([0-9a-f]{8}.[0-9a-f]{35})\b"
+        },
+        {
+            "key": "\b([0-9A-Za-z]{2,40})\b"
+        }
+    ],
+    "gitlab":
+    [
+        {
+            "key": "\b((?:glpat|)[a-zA-Z0-9\\-=_]{20,22})\b"
+        }
+    ],
+    "github_old":
+    [
+        {
+            "key": "(?i)(?:github|gh|pat)[^\\.].{0,40}[ =:'\" }]+([a-f0-9]{40})\b"
+        }
+    ],
+    "travisci":
+    [
+        {
+            "key": "\b([a-zA-Z0-9A-Z_]{22})\b"
+        }
+    ],
+    "mapquest":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{32})\b"
+        }
+    ],
+    "postbacks":
+    [
+        {
+            "key": "\b([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        }
+    ],
+    "scrapingant":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "avazapersonalaccesstoken":
+    [
+        {
+            "key": "\b([0-9]+-[0-9a-f]{40})\b"
+        }
+    ],
+    "clustdoc":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{60})\b"
+        }
+    ],
+    "databox":
+    [
+        {
+            "key": "\b([0-9a-z]{5,15}_[0-9a-z-]{36})\b"
+        },
+        "\b([0-9a-z-]{36})\b"
+    ],
+    "eightxeight":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{43})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9_]{18,30})\b"
+        }
+    ],
+    "nutritionix":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        },
+        {
+            "key": "\b([a-z0-9]{8})\b"
+        }
+    ],
+    "tickettailor":
+    [
+        {
+            "key": "\b(sk[a-fA-Z0-9_]{45})\b"
+        }
+    ],
+    "verifier":
+    [
+        {
+            "key": "\b([a-z0-9]{96})\b"
+        },
+        {
+            "key": "\b([a-zA-Z-0-9-]{5,16}\\@[a-zA-Z-0-9]{4,16}\\.[a-zA-Z-0-9]{3,6})\b"
+        }
+    ],
+    "autoklose":
+    [
+        {
+            "key": "\b([a-zA-Z0-9-]{32})\b"
+        }
+    ],
+    "ecostruxureit":
+    [
+        {
+            "key": "\b(AK1[0-9a-zA-Z/]{50,55})\b"
+        }
+    ],
+    "crowdin":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{80})\b"
+        }
+    ],
+    "pepipost":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9]{32})\b"
+        }
+    ],
+    "hive":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{17})\b"
+        },
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "dropbox":
+    [
+        {
+            "key": "\b(sl\\.[A-Za-z0-9\\-\\_]{130,140})\b"
+        }
+    ],
+    "swell":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{32})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9]{6,24})\b"
+        }
+    ],
+    "scalr":
+    [
+        {
+            "key": "\b([0-9a-zA-Z._]{136})"
+        },
+        {
+            "key": "\b([0-9a-z]{4,50})\b"
+        }
+    ],
+    "pandadoc":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{40})\b"
+        }
+    ],
+    "airbrakeuserkey":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9]{40})\b"
+        }
+    ],
+    "codacy":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{20})\b"
+        }
+    ],
+    "nicereply":
+    [
+        {
+            "key": "\b([0-9a-f]{40})\b"
+        }
+    ],
+    "jiratoken":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9]{24})\b"
+        },
+        {
+            "key": "\b([a-zA-Z-0-9]{5,24}\\.[a-zA-Z-0-9]{3,16}\\.[a-zA-Z-0-9]{3,16})\b"
+        },
+        {
+            "key": "\b([a-zA-Z-0-9]{5,24}\\@[a-zA-Z-0-9]{3,16}\\.com)\b"
+        }
+    ],
+    "chatfule":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{128})\b"
+        }
+    ],
+    "airship":
+    [
+        {
+            "key": "\b([0-9Aa-zA-Z]{91})\b"
+        }
+    ],
+    "craftmypdf":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{35})\b"
+        }
+    ],
+    "loyverse":
+    [
+        {
+            "key": "\b([0-9-a-z]{32})\b"
+        }
+    ],
+    "currencyfreaks":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "dailyco":
+    [
+        {
+            "key": "\b([0-9a-f]{64})\b"
+        }
+    ],
+    "vatlayer":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "getgist":
+    [
+        {
+            "key": "\b([a-z0-9A-Z+=]{68})"
+        }
+    ],
+    "kucoin":
+    [
+        {
+            "key": "\b([0-9a-f]{24})\b"
+        },
+        {
+            "key": "\b([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        },
+        {
+            "key": "([ \r\n]{1}[!-~]{7,32}[ \r\n]{1})"
+        }
+    ],
+    "chartmogul":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "zenscrape":
+    [
+        {
+            "key": "\b([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        }
+    ],
+    "assemblyai":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "happi":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{56})"
+        }
+    ],
+    "cloudplan":
+    [
+        {
+            "key": "\b([A-Z0-9-]{32})\b"
+        }
+    ],
+    "auth0oauth":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_-]{32,60})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9_-]{64,})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9][a-zA-Z0-9._-]*auth0\\.com)\b"
+        }
+    ],
+    "pinata":
+    [
+        {
+            "key": "\b([0-9a-z]{64})\b"
+        },
+        {
+            "key": "\b([0-9a-z]{20})\b"
+        }
+    ],
+    "runrunit":
+    [
+        {
+            "key": "\b([0-9a-f]{32})\b"
+        },
+        {
+            "key": "\b([0-9A-Za-z]{18,20})\b"
+        }
+    ],
+    "bugsnag":
+    [
+        {
+            "key": "\b([0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\b"
+        }
+    ],
+    "hubspotapikey":
+    [
+        {
+            "key": "\b([A-Za-z0-9]{8}\\-[A-Za-z0-9]{4}\\-[A-Za-z0-9]{4}\\-[A-Za-z0-9]{4}\\-[A-Za-z0-9]{12})\b"
+        }
+    ],
+    "buttercms":
+    [
+        {
+            "key": "\b([a-z0-9]{40})\b"
+        }
+    ],
+    "checio":
+    [
+        {
+            "key": "\b(pk_[a-z0-9]{45})\b"
+        }
+    ],
+    "okta":
+    [
+        {
+            "key": "[a-z0-9-]{1,40}\\.okta(?:preview|-emea){0,1}\\.com"
+        },
+        {
+            "key": "00[a-zA-Z0-9_-]{40}"
+        }
+    ],
+    "satismeterwritekey":
+    [
+        {
+            "key": "\b([a-z0-9A-Z]{16})\b"
+        }
+    ],
+    "visualcrossing":
+    [
+        {
+            "key": "\b([0-9A-Z]{25})\b"
+        }
+    ],
+    "telegrambottoken":
+    [
+        {
+            "key": "\b([0-9]{8,10}:[a-zA-Z0-9_-]{35})\b"
+        }
+    ],
+    "imagga":
+    [
+        {
+            "key": "\b([a-z0-9A-Z=]{72})"
+        }
+    ],
+    "kontent":
+    [
+        {
+            "key": "\b([a-z0-9-]{36})\b"
+        }
+    ],
+    "satismeterprojectkey":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{24})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9]{4,20}@[a-zA-Z0-9]{2,12}.[a-zA-Z0-9]{2,12})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9!=@#$%^]{6,32})"
+        }
+    ],
+    "sqlserver":
+    [
+        {
+            "key": "(?:\n|\" }|'|\"| )?((?:[A-Za-z0-9_ ]+=[^;$'\"\"$]+;?){3,})(?:'|\"|\"|\r\n|\n)?\")"
+        }
+    ],
+    "cloudmersive":
+    [
+        {
+            "key": "\b([a-z0-9-]{36})\b"
+        }
+    ],
+    "surveyanyplace":
+    [
+        {
+            "key": "\b([a-z0-9A-Z]{32})\b"
+        },
+        {
+            "key": "\b([a-z0-9A-Z-]{36})\b"
+        }
+    ],
+    "buddyns":
+    [
+        {
+            "key": "\b([0-9a-z]{40})\b"
+        }
+    ],
+    "ditto":
+    [
+        {
+            "key": "\b([a-z0-9]{8}\\-[a-z0-9]{4}\\-[a-z0-9]{4}\\-[a-z0-9]{4}\\-[a-z0-9]{12}\\.[a-z0-9]{40})\b"
+        }
+    ],
+    "upwave":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "yandex":
+    [
+        {
+            "key": "\b([a-z0-9A-Z.]{83})\b"
+        }
+    ],
+    "siteleaf":
+    [
+        {
+            "key": "\b([0-9Aa-z]{32})\b"
+        }
+    ],
+    "kanban":
+    [
+        {
+            "key": "\b([0-9A-Z]{12})\b"
+        },
+        {
+            "key": "\b([0-9a-z]{1,}\\.kanbantool\\.com)\b"
+        }
+    ],
+    "fleetbase":
+    [
+        {
+            "key": "\b(flb_live_[0-9a-zA-Z]{20})\b"
+        }
+    ],
+    "urlscan":
+    [
+        {
+            "key": "\b([a-z0-9-]{36})\b"
+        }
+    ],
+    "kylas":
+    [
+        {
+            "key": "\b([a-z0-9-]{36})\b"
+        }
+    ],
+    "companyhub":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{20})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9$%^=-]{4,32})\b"
+        }
+    ],
+    "extractorapi":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9]{40})\b"
+        }
+    ],
+    "yousign":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "float":
+    [
+        {
+            "key": "\b([a-zA-Z0-9-._+=/]{59,60})\b"
+        }
+    ],
+    "html":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{64})\b"
+        }
+    ],
+    "edenai":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{36}.[a-zA-Z0-9]{92}.[a-zA-Z0-9_]{43})\b"
+        }
+    ],
+    "weatherstack":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "websitepulse":
+    [
+        {
+            "key": "\b([0-9a-f]{32})\b"
+        },
+        {
+            "key": "\b([0-9a-zA-Z._]{4,22})\b"
+        }
+    ],
+    "flowflu":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{51})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9]{4,30})\b"
+        }
+    ],
+    "slackwebhook":
+    [
+        {
+            "key": "(https://hooks\\.slack\\.com/services/T[A-Z0-9]+/B[A-Z0-9]+/[A-Za-z0-9]{23,25})"
+        }
+    ],
+    "userstack":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "graphcms":
+    [
+        {
+            "key": "\b(ey[a-zA-Z0-9]{73}.ey[a-zA-Z0-9]{365}.[a-zA-Z0-9_-]{683})\b"
+        },
+        {
+            "key": "\b([a-z0-9]{25})\b"
+        }
+    ],
+    "sheety":
+    [
+        {
+            "key": "\b([0-9a-z]{64})\b"
+        },
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "lemlist":
+    [
+        {
+            "key": "\b([a-f0-9]{32})\b"
+        }
+    ],
+    "microsoftteamswebhook":
+    [
+        {
+            "key": "(https://[a-zA-Z-0-9]+\\.webhook\\.office\\.com/webhookb2/[a-zA-Z-0-9]{8}-[a-zA-Z-0-9]{4}-[a-zA-Z-0-9]{4}-[a-zA-Z-0-9]{4}-[a-zA-Z-0-9]{12}\\@[a-zA-Z-0-9]{8}-[a-zA-Z-0-9]{4}-[a-zA-Z-0-9]{4}-[a-zA-Z-0-9]{4}-[a-zA-Z-0-9]{12}/IncomingWebhook/[a-zA-Z-0-9]{32}/[a-zA-Z-0-9]{8}-[a-zA-Z-0-9]{4}-[a-zA-Z-0-9]{4}-[a-zA-Z-0-9]{4}-[a-zA-Z-0-9]{12})"
+        }
+    ],
+    "helpcrunch":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9+/=]{328})"
+        }
+    ],
+    "juro":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{40})\b"
+        }
+    ],
+    "flutterwave":
+    [
+        {
+            "key": "\b(FLWSECK-[0-9a-z]{32}-X)\b"
+        }
+    ],
+    "screenshotlayer":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_]{32})\b"
+        }
+    ],
+    "scrapfly":
+    [
+        {
+            "key": "\b([a-z0-9]{32}|scp-(?:live|test)-[a-z0-9]{32})\b"
+        }
+    ],
+    "mediastack":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "paystack":
+    [
+        {
+            "key": "\b(sk\\_[a-z]{1,}\\_[A-Za-z0-9]{40})\b"
+        }
+    ],
+    "jotform":
+    [
+        {
+            "key": "\b([0-9Aa-z]{32})\b"
+        }
+    ],
+    "airvisual":
+    [
+        {
+            "key": "\b([a-z0-9-]{36})\b"
+        }
+    ],
+    "ipinfodb":
+    [
+        {
+            "key": "\b([a-z0-9]{64})\b"
+        }
+    ],
+    "apollo":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{22})\b"
+        }
+    ],
+    "paypaloauth":
+    [
+        {
+            "key": "\b([A-Za-z0-9_\\.]{7}-[A-Za-z0-9_\\.]{72})\b"
+        },
+        {
+            "key": "\b([A-Za-z0-9_\\.]{69}-[A-Za-z0-9_\\.]{10})\b"
+        }
+    ],
+    "oanda":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{24})\b"
+        }
+    ],
+    "webex":
+    [
+        {
+            "key": "\b([a-f0-9]{64})\b"
+        },
+        {
+            "key": "\b(C[a-f0-9]{64})\b"
+        }
+    ],
+    "theoddsapi":
+    [
+        {
+            "key": "\b([0-9a-f]{32})\b"
+        }
+    ],
+    "dovico":
+    [
+        {
+            "key": "\b([0-9a-z]{32}\\.[0-9a-z]{1,}\b)"
+        },
+        {
+            "key": "\b([0-9a-z]{32}\\.[0-9a-z]{1,}\b)"
+        }
+    ],
+    "linearapi":
+    [
+        {
+            "key": "\b(lin_api_[0-9A-Za-z]{40})\b"
+        }
+    ],
+    "pubnubpublishkey":
+    [
+        {
+            "key": "\b(pub-c-[0-9a-z]{8}-[0-9a-z]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12})\b"
+        },
+        {
+            "key": "\b(sub-c-[0-9a-z]{8}-[a-z]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12})\b"
+        }
+    ],
+    "everhour":
+    [
+        {
+            "key": "\b([0-9Aa-f]{4}-[0-9a-f]{4}-[0-9a-f]{6}-[0-9a-f]{6}-[0-9a-f]{8})\b"
+        }
+    ],
+    "aha":
+    [
+        {
+            "key": "\b([0-9a-f]{64})\b"
+        }
+    ],
+    "beebole":
+    [
+        {
+            "key": "\b([0-9a-z]{40})\b"
+        }
+    ],
+    "youtubeapikey":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9_]{39})\b"
+        },
+        {
+            "key": "\b([a-zA-Z-0-9]{24})\b"
+        }
+    ],
+    "nytimes":
+    [
+        {
+            "key": "\b([a-z0-9A-Z-]{32})\b"
+        }
+    ],
+    "veriphone":
+    [
+        {
+            "key": "\b([0-9A-Z]{32})\b"
+        }
+    ],
+    "nylas":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{30})\b"
+        }
+    ],
+    "worldcoinindex":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{35})\b"
+        }
+    ],
+    "salesflare":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_]{45})\b"
+        }
+    ],
+    "github":
+    [
+        {
+            "key": "\b((?:ghp|gho|ghu|ghs|ghr|github_pat)_[a-zA-Z0-9_]{36,255})\b"
+        }
+    ],
+    "countrylayer":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "detectlanguage":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "semaphore":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "speechtextai":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{73})"
+        },
+        {
+            "key": "\b([A-Za-z0-9](?:[A-Za-z0-9\\-]{0,61}[A-Za-z0-9])\\.jfrog\\.io)"
+        }
+    ],
+    "artsy":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{32})\b"
+        },
+        {
+            "key": "\b([0-9a-zA-Z]{20})\b"
+        }
+    ],
+    "lokalisetoken":
+    [
+        {
+            "key": "\b([a-z0-9]{40})\b"
+        }
+    ],
+    "flightapi":
+    [
+        {
+            "key": "\b([a-z0-9]{24})\b"
+        }
+    ],
+    "commercejs":
+    [
+        {
+            "key": "\b([a-z0-9_]{48})\b"
+        }
+    ],
+    "zipcodebase":
+    [
+        {
+            "key": "\b([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        }
+    ],
+    "sumologickey":
+    [
+        {
+            "key": "\b([A-Za-z0-9]{14})\b"
+        },
+        {
+            "key": "\b([A-Za-z0-9]{64})\b"
+        }
+    ],
+    "cloudconvert":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_]{32})\b"
+        }
+    ],
+    "unplugg":
+    [
+        {
+            "key": "\b([a-z0-9]{64})\b"
+        }
+    ],
+    "postageapp":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{32})\b"
+        }
+    ],
+    "contentfulpersonalaccesstoken":
+    [
+        {
+            "key": "\b([CFPAT\\-a-zA-Z-0-9]{49})\b"
+        }
+    ],
+    "mrticktock":
+    [
+        {
+            "key": "\b([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\\.[a-z]+)\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9!=@#$%()_^]{1,50})"
+        }
+    ],
+    "coinlayer":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "keenio":
+    [
+        {
+            "key": "\b([0-9A-Z]{64})\b"
+        },
+        {
+            "key": "\b([0-9a-z]{24})\b"
+        }
+    ],
+    "terraformcloudpersonaltoken":
+    [
+        {
+            "key": "\b([A-Za-z0-9]{14}.atlasv1.[A-Za-z0-9]{67})\b"
+        }
+    ],
+    "meistertask":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{43})\b"
+        }
+    ],
+    "lendflow":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{36}\\.[a-zA-Z0-9]{235}\\.[a-zA-Z0-9]{32}\\-[a-zA-Z0-9]{47}\\-[a-zA-Z0-9_]{162}\\-[a-zA-Z0-9]{42}\\-[a-zA-Z0-9_]{40}\\-[a-zA-Z0-9_]{66}\\-[a-zA-Z0-9_]{59}\\-[a-zA-Z0-9]{7}\\-[a-zA-Z0-9_]{220})\b"
+        }
+    ],
+    "plivo":
+    [
+        {
+            "key": "\b([A-Z]{20})\b"
+        },
+        {
+            "key": "\b([A-Za-z0-9_-]{40})\b"
+        }
+    ],
+    "owlbot":
+    [
+        {
+            "key": "\b([a-z0-9]{40})\b"
+        }
+    ],
+    "todoist":
+    [
+        {
+            "key": "\b([0-9a-z]{40})\b"
+        }
+    ],
+    "scrapingbee":
+    [
+        {
+            "key": "\b([A-Z0-9]{80})\b"
+        }
+    ],
+    "salesmate":
+    [
+        {
+            "key": "\b([0-9Aa-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        },
+        {
+            "key": "\b([a-z0-9A-Z]{3,22})\b"
+        }
+    ],
+    "typetalk":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{64})\b"
+        },
+        {
+            "key": "\b([0-9a-zA-Z]{32})\b"
+        }
+    ],
+    "trelloapikey":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9]{64})\b"
+        },
+        {
+            "key": "\b([a-zA-Z-0-9]{32})\b"
+        }
+    ],
+    "currencyscoop":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "dareboost":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{60})\b"
+        }
+    ],
+    "githubapp":
+    [
+        {
+            "key": "\b([0-9]{6})\b"
+        }
+    ],
+    "noticeable":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{20})\b"
+        }
+    ],
+    "ubidots":
+    [
+        {
+            "key": "\b(BBFF-[0-9a-zA-Z]{30})\b"
+        }
+    ],
+    "squareapp":
+    [
+        {
+            "key": "[\\W\\-]*sq0i[a-z]{2}-[0-9A-Za-z\\-_]{22,43}"
+        },
+        {
+            "key": "[\\W\\-]*sq0c[a-z]{2}-[0-9A-Za-z\\-_]{40,50}"
+        }
+    ],
+    "metrilo":
+    [
+        {
+            "key": "\b([a-z0-9]{16})\b"
+        }
+    ],
+    "fullstory":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9/+]{88})\b"
+        }
+    ],
+    "rev":
+    [
+        {
+            "key": "\b([0-9a-zA-Z/\\+]{27}\\=[ \r\n]{1})"
+        },
+        {
+            "key": "\b([0-9a-zA-Z\\-]{27}[ \r\n]{1})"
+        }
+    ],
+    "bscscan":
+    [
+        {
+            "key": "\b([0-9A-Z]{34})\b"
+        }
+    ],
+    "qase":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{40})\b"
+        }
+    ],
+    "kanbantool":
+    [
+        {
+            "key": "\b([0-9A-Z]{12})\b"
+        },
+        {
+            "key": "\b([a-z0-9A-Z]{2,22})\b"
+        }
+    ],
+    "karmacrm":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{20})\b"
+        }
+    ],
+    "newscatcher":
+    [
+        {
+            "key": "\b([0-9A-Za-z_]{43})\b"
+        }
+    ],
+    "netlify":
+    [
+        {
+            "key": "\b([A-Za-z0-9_-]{43,45})\b"
+        }
+    ],
+    "sigopt":
+    [
+        {
+            "key": "\b([A-Z0-9]{48})\b"
+        }
+    ],
+    "eagleeyenetworks":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{15})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9]{3,20}@[a-zA-Z0-9]{2,12}.[a-zA-Z0-9]{2,5})\b"
+        }
+    ],
+    "convertapi":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{16})\b"
+        }
+    ],
+    "harvest":
+    [
+        {
+            "key": "\b([a-z0-9A-Z._]{97})\b"
+        },
+        {
+            "key": "\b([0-9]{4,9})\b"
+        }
+    ],
+    "sendbirdorganizationapi":
+    [
+        {
+            "key": "\b([0-9a-f]{24})\b"
+        }
+    ],
+    "shutterstockoauth":
+    [
+        {
+            "key": "\b(v2/[0-9A-Za-z]{388})\b"
+        }
+    ],
+    "deputy":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        },
+        {
+            "key": "\b([0-9a-z]{1,}\\.as\\.deputy\\.com)\b"
+        }
+    ],
+    "segmentapikey":
+    [
+        {
+            "key": "\b([A-Za-z0-9_\\-a-zA-Z]{43}\\.[A-Za-z0-9_\\-a-zA-Z]{43})\b"
+        }
+    ],
+    "raven":
+    [
+        {
+            "key": "\b([A-Z0-9-]{16})\b"
+        }
+    ],
+    "geoipifi":
+    [
+        {
+            "key": "\b([a-z0-9A-Z_]{32})\b"
+        }
+    ],
+    "jdbc":
+    [
+        {
+            "key": "(?i)jdbc:[\\W]{3,10}:[^\\s\" }']{0,512}"
+        }
+    ],
+    "smartystreets":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{20})\b"
+        },
+        {
+            "key": "\b([a-z0-9-]{36})\b"
+        }
+    ],
+    "tmetric":
+    [
+        {
+            "key": "\b([0-9A-Z]{64})\b"
+        }
+    ],
+    "rawg":
+    [
+        {
+            "key": "\b([0-9Aa-z]{32})\b"
+        }
+    ],
+    "codequiry":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9]{64})\b"
+        }
+    ],
+    "rubygems":
+    [
+        {
+            "key": "\b(rubygems_[a-zA0-9]{48})\b"
+        }
+    ],
+    "pastebin":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_]{32})\b"
+        }
+    ],
+    "notion":
+    [
+        {
+            "key": "\b(secret_[A-Za-z0-9]{43})\b"
+        }
+    ],
+    "coveralls":
+    [
+        {
+            "key": "\b([a-zA-Z0-9-]{37})\b"
+        }
+    ],
+    "ipgeolocation":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "paralleldots":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{43})\b"
+        }
+    ],
+    "mixpanel":
+    [
+        {
+            "key": "\b([a-zA-Z0-9-]{32})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9.-]{30,40})\b"
+        }
+    ],
+    "mongodb":
+    [
+        {
+            "key": "\b(mongodb(\\+srv)?://[\\S]{3,50}:([\\S]{3,50})@[-.%\\W/:]+)\b"
+        }
+    ],
+    "readme":
+    [
+        {
+            "key": "(rdme_[a-z0-9]{70})"
+        }
+    ],
+    "feedier":
+    [
+        {
+            "key": "\b([a-z0-9A-Z]{32})\b"
+        }
+    ],
+    "facebookoauth":
+    [
+        {
+            "key": "\b([0-9]{15,18})\b"
+        },
+        {
+            "key": "\b([A-Za-z0-9]{32})\b"
+        }
+    ],
+    "checkout":
+    [
+        {
+            "key": "\b((sk_|sk_test_)[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})\b"
+        },
+        {
+            "key": "\b(cus_[0-9a-zA-Z]{26})\b"
+        }
+    ],
+    "serphouse":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{60})\b"
+        }
+    ],
+    "technicalanalysisapi":
+    [
+        {
+            "key": "\b([A-Z0-9]{48})\b"
+        }
+    ],
+    "finnhub":
+    [
+        {
+            "key": "\b([0-9a-z]{20})\b"
+        }
+    ],
+    "besnappy":
+    [
+        {
+            "key": "\b([a-f0-9]{64})\b"
+        }
+    ],
+    "interseller":
+    [
+        {
+            "key": "\b([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        }
+    ],
+    "mailboxlayer":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "protocolsio":
+    [
+        {
+            "key": "\b([a-z0-9]{64})\b"
+        }
+    ],
+    "spoonacular":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "hiveage":
+    [
+        {
+            "key": "\b([0-9A-Za-z\\_\\-]{20})\b"
+        }
+    ],
+    "autodesk":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{32})\b"
+        },
+        {
+            "key": "\b([0-9A-Za-z]{16})\b"
+        }
+    ],
+    "mindmeister":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{43})\b"
+        }
+    ],
+    "auth0managementapitoken":
+    [
+        {
+            "key": "\b(ey[a-zA-Z0-9._-]+)\b"
+        },
+        {
+            "key": "([a-zA-Z0-9\\-]{2,16}\\.[a-zA-Z0-9_-]{2,3}\\.auth0\\.com)"
+        }
+    ],
+    "alienvault":
+    [
+        {
+            "key": "\b([a-z0-9]{64})\b"
+        }
+    ],
+    "reallysimplesystems":
+    [
+        {
+            "key": "\b(ey[a-zA-Z0-9-._]{153}.ey[a-zA-Z0-9-._]{916,1000})\b"
+        }
+    ],
+    "rockset":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{64})\b"
+        }
+    ],
+    "alibaba":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{30})\b"
+        },
+        {
+            "key": "\b(LTAI[a-zA-Z0-9]{17,21})[\"';\\s]*"
+        }
+    ],
+    "mite":
+    [
+        {
+            "key": "\b([0-9a-z]{16})\b"
+        },
+        {
+            "key": "\b([0-9a-z-]{1,}.mite.yo.lk)\b"
+        }
+    ],
+    "onelogin":
+    [
+        {
+            "key": "(?i)id[a-zA-Z0-9_' \" }=]{0,20}([a-z0-9]{64})"
+        },
+        {
+            "key": "(?i)secret[a-zA-Z0-9_' \"=]{0,20}([a-z0-9]{64})"
+        }
+    ],
+    "stitchdata":
+    [
+        {
+            "key": "\b([0-9a-z_]{35})\b"
+        }
+    ],
+    "sonarcloud":
+    [
+        {
+            "key": "\b([0-9a-z]{40})\b"
+        }
+    ],
+    "demio":
+    [
+        {
+            "key": "\b([a-z0-9A-Z]{32})\b"
+        },
+        {
+            "key": "\b([a-z0-9A-Z]{10,20})\b"
+        }
+    ],
+    "clearbit":
+    [
+        {
+            "key": "\b([0-9a-z_]{35})\b"
+        }
+    ],
+    "shipday":
+    [
+        {
+            "key": "\b([a-zA-Z0-9.]{11}[a-zA-Z0-9]{20})\b"
+        }
+    ],
+    "poloniex":
+    [
+        {
+            "key": "\b([0-9A-Z]{8}-[0-9A-Z]{8}-[0-9A-Z]{8}-[0-9A-Z]{8})\b"
+        },
+        {
+            "key": "\b([0-9a-f]{128})\b"
+        }
+    ],
+    "text":
+    [
+        {
+            "key": "\b([0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12})\b"
+        }
+    ],
+    "gcp":
+    [
+        {
+            "key": "\\{[^{]+auth_provider_x509_cert_url[^}]+\\}"
+        }
+    ],
+    "ipapi":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "stormboard":
+    [
+        {
+            "key": "\b([a-f0-9]{40})\b"
+        }
+    ],
+    "sugester":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{32})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9_.!+$#^*%]{3,32})\b"
+        }
+    ],
+    "edamam":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        },
+        {
+            "key": "\b([0-9a-z]{8})\b"
+        }
+    ],
+    "honeycomb":
+    [
+        {
+            "key": "\b([0-9a-f]{32}|[0-9a-zA-Z]{22})\b"
+        }
+    ],
+    "qubole":
+    [
+        {
+            "key": "\b([0-9a-z]{64})\b"
+        }
+    ],
+    "peopledatalabs":
+    [
+        {
+            "key": "\b([a-z0-9]{64})\b"
+        }
+    ],
+    "vbout":
+    [
+        {
+            "key": "\b([0-9]{25})\b"
+        }
+    ],
+    "paymoapp":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{44})\b"
+        }
+    ],
+    "hereapi":
+    [
+        {
+            "key": "\b([a-zA-Z0-9\\S]{43})\b"
+        }
+    ],
+    "gumroad":
+    [
+        {
+            "key": "\b([a-z0-9A-Z-]{43})\b"
+        }
+    ],
+    "shutterstock":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{32})\b"
+        },
+        {
+            "key": "\b([0-9a-zA-Z]{16})\b"
+        }
+    ],
+    "column":
+    [
+        {
+            "key": "\b((?:test|live)_[a-zA-Z0-9]{27})\b"
+        }
+    ],
+    "partnerstack":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{64})\b"
+        }
+    ],
+    "user":
+    [
+        {
+            "key": "\b([a-zA-Z0-9-._+=]{64})\b"
+        }
+    ],
+    "pipedream":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "moonclerk":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "fixerio":
+    [
+        {
+            "key": "\b([A-Za-z0-9]{32})\b"
+        }
+    ],
+    "rabbitmq":
+    [
+        {
+            "key": "\b(?:amqp:)?//[\\S]{3,50}:([\\S]{3,50})@[-.%\\W/:]+\b"
+        }
+    ],
+    "parseur":
+    [
+        {
+            "key": "\b([a-f0-9]{40})\b"
+        }
+    ],
+    "doppler":
+    [
+        {
+            "key": "\b(dp\\.pt\\.[a-zA-Z0-9]{43})\b"
+        }
+    ],
+    "podio":
+    [
+        {
+            "key": "\b([[0-9a-z]{32})\b"
+        }
+    ],
+    "documo":
+    [
+        {
+            "key": "\b(ey[a-zA-Z0-9]{34}.ey[a-zA-Z0-9]{154}.[a-zA-Z0-9_-]{43})\b"
+        }
+    ],
+    "aylien":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        },
+        "\b([a-z0-9]{8})\b"
+    ],
+    "fxmarket":
+    [
+        {
+            "key": "\b([0-9Aa-zA-Z-_=]{20})\b"
+        }
+    ],
+    "besttime":
+    [
+        {
+            "key": "\b([0-9A-Za-z_]{36})\b"
+        }
+    ],
+    "reachmail":
+    [
+        {
+            "key": "\b([a-zA-Z0-9-_]{64})\b"
+        }
+    ],
+    "blablabus":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{22})\b"
+        }
+    ],
+    "discordwebhook":
+    [
+        {
+            "key": "(https://discord\\.com/api/webhooks/[0-9]{18}/[0-9a-zA-Z-]{68})"
+        }
+    ],
+    "browshot":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9]{28})\b"
+        }
+    ],
+    "strava":
+    [
+        {
+            "key": "\b([0-9]{5})\b"
+        },
+        "\b([0-9a-z]{40})\b"
+    ],
+    "monkeylearn":
+    [
+        {
+            "key": "\b([0-9a-f]{40})\b"
+        }
+    ],
+    "mailchimp":
+    [
+        {
+            "key": "[0-9a-f]{32}-us[0-9]{1,2}"
+        }
+    ],
+    "foursquare":
+    [
+        {
+            "key": "\b([0-9A-Z]{48})\b"
+        }
+    ],
+    "securitytrails":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{32})\b"
+        }
+    ],
+    "nozbeteams":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{16}_[0-9A-Za-z\\-_]{64}[ \r\n]{1})"
+        }
+    ],
+    "salesblink":
+    [
+        {
+            "key": "\b([a-zA-Z]{16})\b"
+        }
+    ],
+    "roninapp":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{26})\b"
+        },
+        "\b([0-9Aa-zA-Z]{3,32})\b"
+    ],
+    "vpnapi":
+    [
+        {
+            "key": "\b([a-z0-9A-Z]{32})\b"
+        }
+    ],
+    "diffbot":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "impala":
+    [
+        {
+            "key": "\b([0-9A-Za-z_]{46})\b"
+        }
+    ],
+    "iexcloud":
+    [
+        {
+            "key": "\b([a-z0-9_]{35})\b"
+        }
+    ],
+    "typeform":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{44})\b"
+        }
+    ],
+    "polygon":
+    [
+        {
+            "key": "\b([a-z0-9A-Z]{32})\b"
+        }
+    ],
+    "apideck":
+    [
+        {
+            "key": "\b(sk_live_[a-z0-9A-Z-]{93})\b"
+        },
+        "\b([a-z0-9A-Z]{40})\b"
+    ],
+    "onesignal":
+    [
+        {
+            "key": "\b([0-9Aa-z]{32})\b"
+        }
+    ],
+    "ayrshare":
+    [
+        {
+            "key": "\b([A-Z]{7}-[A-Z0-9]{7}-[A-Z0-9]{7}-[A-Z0-9]{7})\b"
+        }
+    ],
+    "mandrill":
+    [
+        {
+            "key": "\b([A-Za-z0-9_-]{22})\b"
+        }
+    ],
+    "worldweather":
+    [
+        {
+            "key": "\b([0-9a-z]{31})\b"
+        }
+    ],
+    "fastlypersonaltoken":
+    [
+        {
+            "key": "\b([A-Za-z0-9_-]{32})\b"
+        }
+    ],
+    "datafire":
+    [
+        {
+            "key": "\b([a-z0-9\\S]{175,190})\b"
+        }
+    ],
+    "lexigram":
+    [
+        {
+            "key": "\b([a-zA-Z0-9\\S]{301})\b"
+        }
+    ],
+    "scrutinizerci":
+    [
+        {
+            "key": "\b([0-9a-z]{64})\b"
+        }
+    ],
+    "brandfetch":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{40})\b"
+        }
+    ],
+    "sentrytoken":
+    [
+        {
+            "key": "\b([a-f0-9]{64})\b"
+        }
+    ],
+    "salescookie":
+    [
+        {
+            "key": "\b([a-zA-z0-9]{32})\b"
+        }
+    ],
+    "tomorrowio":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{32})\b"
+        }
+    ],
+    "deepgram":
+    [
+        {
+            "key": "\b([0-9a-z]{40})\b"
+        }
+    ],
+    "shopify":
+    [
+        {
+            "key": "\b(shppa_|shpat_)([0-9A-Fa-f]{32})\b"
+        },
+        {
+            "key": "[a-zA-Z0-9-]+\\.myshopify\\.com"
+        }
+    ],
+    "postman":
+    [
+        {
+            "key": "\b(PMAK-[a-zA-Z-0-9]{59})\b"
+        }
+    ],
+    "tatumio":
+    [
+        {
+            "key": "\b([0-9a-z-]{36})\b"
+        }
+    ],
+    "datagov":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{40})\b"
+        }
+    ],
+    "detectify":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "alegra":
+    [
+        {
+            "key": "\b([a-z0-9-]{20})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9.-@]{25,30})\b"
+        }
+    ],
+    "geocodio":
+    [
+        {
+            "key": "\b([a-z0-9]{39})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9\\S]{7,30})\b"
+        }
+    ],
+    "getgeoapi":
+    [
+        {
+            "key": "\b([0-9a-z]{40})\b"
+        }
+    ],
+    "rownd":
+    [
+        {
+            "key": "\b([a-z0-9]{8}\\-[a-z0-9]{4}\\-[a-z0-9]{4}\\-[a-z0-9]{4}\\-[a-z0-9]{12})\b"
+        },
+        {
+            "key": "\b([a-z0-9]{48})\b"
+        },
+        {
+            "key": "\b([0-9]{18})\b"
+        }
+    ],
+    "miro":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{27})\b"
+        }
+    ],
+    "versioneye":
+    [
+        {
+            "key": "\b([a-zA-Z0-9-]{40})\b"
+        }
+    ],
+    "webscraper":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{60})\b"
+        }
+    ],
+    "iexapis":
+    [
+        {
+            "key": "\b(sk_[a-z0-9]{32})\b"
+        }
+    ],
+    "ticketmaster":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{32})\b"
+        }
+    ],
+    "unifyid":
+    [
+        {
+            "key": "\b([0-9A-Za-z_=-]{44})"
+        }
+    ],
+    "axonaut":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "intercom":
+    [
+        {
+            "key": "\b([a-zA-Z0-9\\W\\S]{59}\\=)"
+        }
+    ],
+    "dronahq":
+    [
+        {
+            "key": "\b([a-z0-9]{50})\b"
+        }
+    ],
+    "yelp":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_\\=\\.\\-]{128})\b"
+        }
+    ],
+    "apiscience":
+    [
+        {
+            "key": "\b([a-bA-Z0-9\\S]{22})\b"
+        }
+    ],
+    "mailsac":
+    [
+        {
+            "key": "\b(k_[0-9A-Za-z]{36,})\b"
+        }
+    ],
+    "helpscout":
+    [
+        {
+            "key": "\b([A-Za-z0-9]{56})\b"
+        }
+    ],
+    "formbucket":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{1,}.[0-9A-Za-z]{1,}\\.[0-9A-Z-a-z\\-_]{1,})"
+        }
+    ],
+    "baremetrics":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_]{25})\b"
+        }
+    ],
+    "passbase":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{128})\b"
+        }
+    ],
+    "scraperbox":
+    [
+        {
+            "key": "\b([A-Z0-9]{32})\b"
+        }
+    ],
+    "zipapi":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\\.[a-z]+)\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9!=@#$%^]{7,})"
+        }
+    ],
+    "convertkit":
+    [
+        {
+            "key": "\b([a-z0-9A-Z_]{22})\b"
+        }
+    ],
+    "planyo":
+    [
+        {
+            "key": "\b([0-9a-z]{62})\b"
+        }
+    ],
+    "ngc":
+    [
+        {
+            "key": "\b([[:alnum:]]{84})\b"
+        },
+        {
+            "key": "\b([[:alnum:]]{26}:[[:alnum:]]{8}-[[:alnum:]]{4}-[[:alnum:]]{4}-[[:alnum:]]{4}-[[:alnum:]]{12})\b"
+        }
+    ],
+    "gengo":
+    [
+        {
+            "key": "([ ]{0,1}[0-9a-zA-Z\\[\\]\\-\\(\\)\\{\\}|_^@$=~]{64}[ \r\n]{1})"
+        }
+    ],
+    "lessannoyingcrm":
+    [
+        {
+            "key": "\b([a-zA-Z0-9-]{57})\b"
+        }
+    ],
+    "faceplusplus":
+    [
+        {
+            "key": "\b([0-9a-zA-Z_-]{32})\b"
+        }
+    ],
+    "apiflash":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9\\S]{21,30})\b"
+        }
+    ],
+    "wit":
+    [
+        {
+            "key": "\b([A-Z0-9]{32})\b"
+        }
+    ],
+    "manifest":
+    [
+        {
+            "key": "\b([a-zA-z0-9]{32})\b"
+        }
+    ],
+    "abbysale":
+    [
+        {
+            "key": "\b([a-z0-9A-Z]{40})\b"
+        }
+    ],
+    "voodoosms":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{46})\b"
+        }
+    ],
+    "pipedrive":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{40})\b"
+        }
+    ],
+    "simfin":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{32})\b"
+        }
+    ],
+    "livestorm":
+    [
+        {
+            "key": "\b(eyJhbGciOiJIUzI1NiJ9\\.eyJhdWQiOiJhcGkubGl2ZXN0b3JtLmNvIiwianRpIjoi[0-9A-Z-a-z]{134}\\.[0-9A-Za-z\\-\\_]{43}[ \r\n]{1})"
+        }
+    ],
+    "skrappio":
+    [
+        {
+            "key": "\b([a-z0-9A-Z]{42})\b"
+        }
+    ],
+    "formio":
+    [
+        {
+            "key": "\b(eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\\.[0-9A-Za-z]{310}\\.[0-9A-Z-a-z\\-_]{43}[ \r\n]{1})"
+        }
+    ],
+    "asanapersonalaccesstoken":
+    [
+        {
+            "key": "\b([0-9]{1,}/[0-9]{16,}:[A-Za-z0-9]{32,})\b"
+        }
+    ],
+    "copper":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        },
+        {
+            "key": "\b([a-z0-9]{4,25}@[a-zA-Z0-9]{2,12}.[a-zA-Z0-9]{2,6})\b"
+        }
+    ],
+    "zulipchat":
+    [
+        {
+            "key": " \b([A-Z0-9]{36})\b"
+        }
+    ],
+    "apptivo":
+    [
+        {
+            "key": "\b([a-z0-9-]{36})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9-]{32})\b"
+        }
+    ],
+    "censys":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{32})\b"
+        },
+        {
+            "key": "\b([a-z0-9-]{36})\b"
+        }
+    ],
+    "square":
+    [
+        {
+            "key": "(EAAA[a-zA-Z0-9\\-\\+\\=]{60})"
+        }
+    ],
+    "optimizely":
+    [
+        {
+            "key": "\b([0-9A-Za-z-:]{54})\b"
+        }
+    ],
+    "glassnode":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{27})\b"
+        }
+    ],
+    "commodities":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{60})\b"
+        }
+    ],
+    "storyblok":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{22}t{2})\b"
+        }
+    ],
+    "wrike":
+    [
+        {
+            "key": "\b(ey[a-zA-Z0-9-._]{333})\b"
+        }
+    ],
+    "circleci":
+    [
+        {
+            "key": "([a-fA-F0-9]{40})"
+        }
+    ],
+    "parsehub":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{12})\b"
+        }
+    ],
+    "verimail":
+    [
+        {
+            "key": "\b([A-Z0-9]{32})\b"
+        }
+    ],
+    "coinbase":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9]{64})\b"
+        }
+    ],
+    "linemessaging":
+    [
+        {
+            "key": "\b([A-Za-z0-9+/]{171,172})\b"
+        }
+    ],
+    "apilayer":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{32})\b"
+        }
+    ],
+    "upcdatabase":
+    [
+        {
+            "key": "\b([A-Z0-9]{32})\b"
+        }
+    ],
+    "dnscheck":
+    [
+        {
+            "key": "\b([a-z0-9A-Z]{32})\b"
+        },
+        "\b([a-z0-9A-Z-]{36})\b"
+    ],
+    "paperform":
+    [
+        {
+            "key": "\b([a-z0-9A-Z-._]{850,1000})\b"
+        }
+    ],
+    "sportradar":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{24})\b"
+        }
+    ],
+    "mattermostpersonaltoken":
+    [
+        {
+            "key": "\b([a-z0-9]{26})\b"
+        },
+        {
+            "key": "\b([A-Za-z0-9-_]{1,}.cloud.mattermost.com)\b"
+        }
+    ],
+    "launchdarkly":
+    [
+        {
+            "key": "\b([a-z0-9-]{40})\b"
+        }
+    ],
+    "amplitudeapikey":
+    [
+        {
+            "key": "\b([0-9a-f]{32})\b"
+        }
+    ],
+    "snykkey":
+    [
+        {
+            "key": "\b([0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\b"
+        }
+    ],
+    "flowdock":
+    [
+        {
+            "key": "\b([0-9a-f]{32})\b"
+        }
+    ],
+    "gocanvas":
+    [
+        {
+            "key": "\b([0-9A-Za-z/+]{43}=[ \r\n]{1})"
+        },
+        {
+            "key": "\b([\\W\\.-]+@[\\W-]+\\.[\\W\\.-]{2,5})\b"
+        }
+    ],
+    "languagelayer":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "bitlyaccesstoken":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9]{40})\b"
+        }
+    ],
+    "ldap":
+    [
+        {
+            "key": "\b(?i)ldaps?:"
+        },
+        {
+            "key": "[\"']([a-zA-Z=,]{4,150})[\"']"
+        },
+        {
+            "key": "[\"']([\\S]{4,48})[\"']"
+        },
+        {
+            "key": "OpenDSObject\\(\"(?i)(ldaps?:"
+        }
+    ],
+    "pandascore":
+    [
+        {
+            "key": "([ \r\n]{0,1}[0-9A-Za-z\\-\\_]{51}[ \r\n]{1})"
+        }
+    ],
+    "cloudflarecakey":
+    [
+        {
+            "key": "\b(v[A-Za-z0-9._-]{173,})\b"
+        }
+    ],
+    "clockworksms":
+    [
+        {
+            "key": "\b([0-9]{5})\b"
+        },
+        {
+            "key": "\b([0-9a-zA-Z]{24})\b"
+        }
+    ],
+    "anypoint":
+    [
+        {
+            "key": "\b([0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\b"
+        }
+    ],
+    "flickr":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "debounce":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{13})\b"
+        }
+    ],
+    "simplynoted":
+    [
+        {
+            "key": "\b([a-zA-Z0-9\\S]{340,360})\b"
+        }
+    ],
+    "macaddress":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_]{32})\b"
+        }
+    ],
+    "atera":
+    [
+        {
+            "key": "\b([[0-9a-z]{32})\b"
+        }
+    ],
+    "findl":
+    [
+        {
+            "key": "\b([a-z0-9]{8}\\-[a-z0-9]{4}\\-[a-z0-9]{4}\\-[a-z0-9]{4}\\-[a-z0-9]{12})\b"
+        }
+    ],
+    "bitfinex":
+    [
+        {
+            "key": "\b([A-Za-z0-9_-]{43})\b"
+        }
+    ],
+    "codeclimate":
+    [
+        {
+            "key": "\b([a-f0-9]{40})\b"
+        }
+    ],
+    "getresponse":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "positionstack":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_]{32})\b"
+        }
+    ],
+    "hybiscus":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{43})\b"
+        }
+    ],
+    "scalewaykey":
+    [
+        {
+            "key": "\b([0-9a-z]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[0-9a-z]{4}-[0-9a-z]{12})\b"
+        }
+    ],
+    "walkscore":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "currentsapi":
+    [
+        {
+            "key": "\b([a-zA-Z0-9\\S]{48})\b"
+        }
+    ],
+    "guardianapi":
+    [
+        {
+            "key": "\b([0-9Aa-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\b"
+        }
+    ],
+    "appsynergy":
+    [
+        {
+            "key": "\b([a-z0-9]{64})\b"
+        }
+    ],
+    "opencagedata":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "route":
+    [
+        {
+            "key": "\b([0-9A-Z]{32})\b"
+        }
+    ],
+    "sinchmessage":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "workstack":
+    [
+        {
+            "key": "\b([0-9Aa-zA-Z]{60})\b"
+        }
+    ],
+    "geckoboard":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{44})\b"
+        }
+    ],
+    "sendgrid":
+    [
+        {
+            "key": "(SG\\.[\\W\\-_]{20,24}\\.[\\W\\-_]{39,50})\b"
+        }
+    ],
+    "accuweather":
+    [
+        {
+            "key": "([a-z0-9A-Z\\%]{35})\b"
+        }
+    ],
+    "exchangeratesapi":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "mailjetbasicauth":
+    [
+        {
+            "key": "\b([A-Za-z0-9]{87}\\=)"
+        }
+    ],
+    "streak":
+    [
+        {
+            "key": "\b([0-9Aa-f]{32})\b"
+        }
+    ],
+    "chatbot":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_]{32})\b"
+        }
+    ],
+    "marketstack":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "etsyapikey":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9]{24})\b"
+        }
+    ],
+    "teamworkcrm":
+    [
+        {
+            "key": "\b(tkn\\.v1_[0-9A-Za-z]{71}=[ \r\n]{1})"
+        }
+    ],
+    "redis":
+    [
+        {
+            "key": "\bredis://[\\S]{3,50}:([\\S]{3,50})@[-.%\\w/:]+\b"
+        }
+    ],
+    "vouchery":
+    [
+        {
+            "key": "\b([a-z0-9-]{36})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9-\\S]{2,20})\b"
+        }
+    ],
+    "taxjar":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "zeplin":
+    [
+        {
+            "key": "\b([a-zA-Z0-9-.]{350,400})\b"
+        }
+    ],
+    "wistia":
+    [
+        {
+            "key": "\b([0-9a-z]{64})\b"
+        }
+    ],
+    "flightlabs":
+    [
+        {
+            "key": "\b(ey[a-zA-Z0-9]{34}.ey[a-zA-Z0-9._-]{300,350})\b"
+        }
+    ],
+    "signupgenius":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{32})\b"
+        }
+    ],
+    "newsapi":
+    [
+        {
+            "key": "\b([a-z0-9]{32})"
+        }
+    ],
+    "droneci":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{32})\b"
+        }
+    ],
+    "formsite":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{32})\b"
+        },
+        {
+            "key": "\b(fs[0-9]{1,4})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9]{6})\b"
+        }
+    ],
+    "stytch":
+    [
+        {
+            "key": "\b([a-zA-Z0-9-_]{47}=)"
+        },
+        {
+            "key": "\b([a-z0-9-]{49})\b"
+        }
+    ],
+    "pushbulletapikey":
+    [
+        {
+            "key": "\b([A-Za-z0-9_\\.]{34})\b"
+        }
+    ],
+    "refiner":
+    [
+        {
+            "key": "\b([0-9Aa-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        }
+    ],
+    "agora":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "sirv":
+    [
+        {
+            "key": "\b([a-zA-Z0-9\\S]{88})"
+        },
+        {
+            "key": "\b([a-zA-Z0-9]{26})\b"
+        }
+    ],
+    "adzuna":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        },
+        {
+            "key": "\b([a-z0-9]{8})\b"
+        }
+    ],
+    "coinapi":
+    [
+        {
+            "key": "\b([A-Z0-9-]{36})\b"
+        }
+    ],
+    "docparser":
+    [
+        {
+            "key": "\b([a-f0-9]{40})\b"
+        }
+    ],
+    "mailjetsms":
+    [
+        {
+            "key": "\b([A-Za-z0-9]{32})\b"
+        }
+    ],
+    "infura":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "maxmindlicense":
+    [
+        {
+            "key": "\b([0-9]{2,7})\b"
+        },
+        "\b([0-9A-Za-z]{16})\b"
+    ],
+    "instabot":
+    [
+        {
+            "key": "\b([0-9a-zA-Z=+/]{43}[0-9a-zA-Z+/=]{1})"
+        }
+    ],
+    "clickhelp":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{3,20}.try.clickhelp.co)\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\\.[a-z]+)\b"
+        },
+        {
+            "key": "\b([0-9A-Za-z]{24})\b"
+        }
+    ],
+    "fileio":
+    [
+        {
+            "key": "\b([A-Z0-9.-]{39})\b"
+        }
+    ],
+    "enigma":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{40})\b"
+        }
+    ],
+    "storecove":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_-]{43})\b"
+        }
+    ],
+    "toggltrack":
+    [
+        {
+            "key": "\b([0-9Aa-z]{32})\b"
+        }
+    ],
+    "formcraft":
+    [
+        {
+            "key": "\b([0-9a-z]{16})\b"
+        }
+    ],
+    "coinlib":
+    [
+        {
+            "key": "\b([a-z0-9]{16})\b"
+        }
+    ],
+    "squarespace":
+    [
+        {
+            "key": "\b([0-9Aa-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        }
+    ],
+    "fastforex":
+    [
+        {
+            "key": "\b([a-z0-9-]{28})\b"
+        }
+    ],
+    "zonkafeedback":
+    [
+        {
+            "key": "\b([A-Za-z0-9]{36})\b"
+        }
+    ],
+    "aeroworkflow":
+    [
+        {
+            "key": "\b([a-zA-Z0-9^!]{20})\b"
+        },
+        {
+            "key": "\b([0-9]{1,})\b"
+        }
+    ],
+    "saucelabs":
+    [
+        {
+            "key": "\b(oauth\\-[a-z0-9]{8,}\\-[a-z0-9]{5})\b"
+        },
+        {
+            "key": "\b([a-z0-9]{8}\\-[a-z0-9]{4}\\-[a-z0-9]{4}\\-[a-z0-9]{4}\\-[a-z0-9]{12})\b"
+        }
+    ],
+    "cannyio":
+    [
+        {
+            "key": "\b([a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[0-9]{4}-[a-z0-9]{12})\b"
+        }
+    ],
+    "supernotesapi":
+    [
+        {
+            "key": "([ \r\n]{0,1}[0-9A-Za-z\\-_]{43}[ \r\n]{1})"
+        }
+    ],
+    "cloze":
+    [
+        {
+            "key": "\b([0-9a-f]{32})\b"
+        },
+        {
+            "key": "\b([\\W\\.-]+@[\\W-]+\\.[\\W\\.-]{2,5})\b"
+        }
+    ],
+    "sslmate":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{36})\b"
+        }
+    ],
+    "mixmax":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_-]{36})\b"
+        }
+    ],
+    "frameio":
+    [
+        {
+            "key": "\b(fio-u-[0-9a-zA-Z_-]{64})\b"
+        }
+    ],
+    "proxycrawl":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_]{22})\b"
+        }
+    ],
+    "locationiq":
+    [
+        {
+            "key": "\b(pk\\.[a-zA-Z-0-9]{32})\b"
+        }
+    ],
+    "mailerlite":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "zenrows":
+    [
+        {
+            "key": "\b([0-9a-f]{40})\b"
+        }
+    ],
+    "statuscake":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{20})\b"
+        }
+    ],
+    "fetchrss":
+    [
+        {
+            "key": "\b([0-9A-Za-z.]{40})\b"
+        }
+    ],
+    "prospectcrm":
+    [
+        {
+            "key": "\b([a-z0-9-]{32})\b"
+        }
+    ],
+    "currencylayer":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "lastfm":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "vyte":
+    [
+        {
+            "key": "\b([0-9a-z]{50})\b"
+        }
+    ],
+    "nexmoapikey":
+    [
+        {
+            "key": "\b([A-Za-z0-9_-]{8})\b"
+        },
+        {
+            "key": "\b([A-Za-z0-9_-]{16})\b"
+        }
+    ],
+    "ethplorer":
+    [
+        {
+            "key": "\b([a-z0-9A-Z-]{22})\b"
+        }
+    ],
+    "adobeio":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9.]{12})\b"
+        }
+    ],
+    "heroku":
+    [
+        {
+            "key": "\b([0-9Aa-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        }
+    ],
+    "calorieninja":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{40})\b"
+        }
+    ],
+    "mesibo":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{64})\b"
+        }
+    ],
+    "telnyx":
+    [
+        {
+            "key": "\b(KEY[0-9A-Za-z_-]{55})\b"
+        }
+    ],
+    "gemini":
+    [
+        {
+            "key": "\b((?:master-|account-)[0-9A-Za-z]{20})\b"
+        },
+        {
+            "key": "[A-Za-z0-9]{27,28}"
+        }
+    ],
+    "cloudflareglobalapikey":
+    [
+        {
+            "key": "([A-Za-z0-9_-]{37})"
+        },
+        {
+            "key": "\b([a-zA-Z0-9+._-]+@[a-zA-Z0-9._-]+\\.[a-zA-Z0-9_-]+)\b"
+        }
+    ],
+    "messagebird":
+    [
+        {
+            "key": "\b([A-Za-z0-9_-]{25})\b"
+        }
+    ],
+    "sparkpost":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{40})\b"
+        }
+    ],
+    "metaapi":
+    [
+        {
+            "key": "\b([0-9a-f]{64})\b"
+        },
+        {
+            "key": "\b([0-9a-f]{24})\b"
+        }
+    ],
+    "youneedabudget":
+    [
+        {
+            "key": "\b([0-9a-f]{64})\b"
+        }
+    ],
+    "tomtom":
+    [
+        {
+            "key": "\b([0-9Aa-zA-Z]{32})\b"
+        }
+    ],
+    "pdfshift":
+    [
+        {
+            "key": "\b([0-9a-f]{32})\b"
+        }
+    ],
+    "travelpayouts":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "tru":
+    [
+        {
+            "key": "\b([0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\b"
+        },
+        {
+            "key": "\b([0-9a-zA-Z.-_]{26})\b"
+        }
+    ],
+    "fakejson":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{22})\b"
+        }
+    ],
+    "mux":
+    [
+        {
+            "key": "\b([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        },
+        {
+            "key": "([ \r\n]{0,1}[0-9A-Za-z/\\+]{75}[ \r\n]{1})"
+        }
+    ],
+    "repairshopr":
+    [
+        {
+            "key": "\b([a-zA-Z0-9-]{51})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9_.!+$#^*]{3,32})\b"
+        }
+    ],
+    "m":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{48})\b"
+        }
+    ],
+    "holidayapi":
+    [
+        {
+            "key": "\b([a-z0-9-]{36})\b"
+        }
+    ],
+    "invoiceocean":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{20})\b"
+        },
+        {
+            "key": "\b([0-9a-z]{1,}\\.invoiceocean\\.com)\b"
+        }
+    ],
+    "host":
+    [
+        {
+            "key": "\b([a-z0-9]{14})\b"
+        }
+    ],
+    "teletype":
+    [
+        {
+            "key": "\b([0-9a-zA-Z-]{64})\b"
+        }
+    ],
+    "rapidapi":
+    [
+        {
+            "key": "\b([A-Za-z0-9_-]{50})\b"
+        }
+    ],
+    "deepai":
+    [
+        {
+            "key": "\b([a-z0-9-]{36})\b"
+        }
+    ],
+    "signable":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9]{32})\b"
+        }
+    ],
+    "datadogtoken":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9]{40})\b"
+        },
+        "\b([a-zA-Z-0-9]{32})\b"
+    ],
+    "textmagic":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{30})\b"
+        },
+        {
+            "key": "\b([0-9A-Za-z]{1,25})\b"
+        }
+    ],
+    "braintreepayments":
+    [
+        {
+            "key": "\b([0-9a-f]{32})\b"
+        },
+        {
+            "key": "\b([0-9a-z]{16})\b"
+        }
+    ],
+    "powrbot":
+    [
+        {
+            "key": "\b([a-z0-9A-Z]{40})\b"
+        }
+    ],
+    "checkvist":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{14})\b"
+        },
+        {
+            "key": "\b([\\W\\.-]+@[\\W-]+\\.[\\W\\.-]{2,5})\b"
+        }
+    ],
+    "diggernaut":
+    [
+        {
+            "key": "\b([0-9a-z]{40})\b"
+        }
+    ],
+    "vercel":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{24})\b"
+        }
+    ],
+    "cloudflareapitoken":
+    [
+        {
+            "key": "\b([A-Za-z0-9_-]{40})\b"
+        }
+    ],
+    "gyazo":
+    [
+        {
+            "key": "\b([0-9A-Za-z-]{43})\b"
+        }
+    ],
+    "digitaloceantoken":
+    [
+        {
+            "key": "\b([A-Za-z0-9_-]{64})\b"
+        }
+    ],
+    "courier":
+    [
+        {
+            "key": "\b(pk\\_[a-zA-Z0-9]{1,}\\_[a-zA-Z0-9]{28})\b"
+        }
+    ],
+    "bitmex":
+    [
+        {
+            "key": "([ \r\n]{1}[0-9a-zA-Z\\-\\_]{24}[ \r\n]{1})"
+        },
+        {
+            "key": "([ \r\n]{1}[0-9a-zA-Z\\-\\_]{48}[ \r\n]{1})"
+        }
+    ],
+    "cexio":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{24,27})\b"
+        },
+        {
+            "key": "\b([a-z]{2}[0-9]{9})\b"
+        }
+    ],
+    "fmfw":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_-]{32})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9-]{32})\b"
+        }
+    ],
+    "apacta":
+    [
+        {
+            "key": "\b([a-z0-9-]{36})\b"
+        }
+    ],
+    "hypertrack":
+    [
+        {
+            "key": "\b([0-9a-zA-Z\\_\\-]{27})\b"
+        },
+        {
+            "key": "\b([0-9a-zA-Z\\_\\-]{54})\b"
+        }
+    ],
+    "luno":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_-]{43})\b"
+        },
+        {
+            "key": "\b([a-z0-9]{13})\b"
+        }
+    ],
+    "lob":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_]{40})\b"
+        }
+    ],
+    "discordbottoken":
+    [
+        {
+            "key": "\b([0-9]{17})\b"
+        },
+        {
+            "key": "\b([A-Za-z0-9_-]{24}\\.[A-Za-z0-9_-]{6}\\.[A-Za-z0-9_-]{27})\b"
+        }
+    ],
+    "bannerbear":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{22}tt)\b"
+        }
+    ],
+    "scrapersite":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{45})\b"
+        }
+    ],
+    "zipcodeapi":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{64})\b"
+        }
+    ],
+    "weatherbit":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "shotstack":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{40})\b"
+        }
+    ],
+    "signalwire":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{50})\b"
+        },
+        {
+            "key": "\b([0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\b"
+        },
+        {
+            "key": "\b([0-9a-z-]{3,64}\\.signalwire\\.com)\b"
+        }
+    ],
+    "ipify":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_-]{32})\b"
+        }
+    ],
+    "sherpadesk":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "confluent":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{16})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9\\+/]{64})\b"
+        }
+    ],
+    "sendbird":
+    [
+        {
+            "key": "\b([0-9a-f]{40})\b"
+        },
+        {
+            "key": "\b([0-9A-F]{8}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{4}-[0-9A-F]{12})\b"
+        }
+    ],
+    "calendlyapikey":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9]{20}.[a-zA-Z-0-9]{171}.[a-zA-Z-0-9_]{43})\b"
+        }
+    ],
+    "screenshotapi":
+    [
+        {
+            "key": "\b([0-9A-Z]{7}\\-[0-9A-Z]{7}\\-[0-9A-Z]{7}\\-[0-9A-Z]{7})\b"
+        }
+    ],
+    "roaring":
+    [
+        {
+            "key": "\b([0-9A-Za-z_-]{28})\b"
+        }
+    ],
+    "gtmetrix":
+    [
+        {
+            "key": "\b([0-9a-f]{32})\b"
+        }
+    ],
+    "bitcoinaverage":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{43})\b"
+        }
+    ],
+    "survicate":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "simvoly":
+    [
+        {
+            "key": "\b([a-z0-9]{33})\b"
+        }
+    ],
+    "parsers":
+    [
+        {
+            "key": "\b([0-9a-z]{64})\b"
+        }
+    ],
+    "ambee":
+    [
+        {
+            "key": "\b([0-9a-f]{64})\b"
+        }
+    ],
+    "sportsmonk":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{60})\b"
+        }
+    ],
+    "qualaroo":
+    [
+        {
+            "key": "\b([a-z0-9A-Z=]{64})"
+        }
+    ],
+    "airbrakeprojectkey":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9]{32})\b"
+        },
+        {
+            "key": "\b([0-9]{6})\b"
+        }
+    ],
+    "zenkitapi":
+    [
+        {
+            "key": "\b([0-9a-z]{8}\\-[0-9A-Za-z]{32})\b"
+        }
+    ],
+    "voicegain":
+    [
+        {
+            "key": "\b(ey[0-9a-zA-Z_-]{34}.ey[0-9a-zA-Z_-]{108}.[0-9a-zA-Z_-]{43})\b"
+        }
+    ],
+    "neutrinoapi":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{48})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9]{6,24})\b"
+        }
+    ],
+    "thousandeyes":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{32})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9]{3,20}@[a-zA-Z0-9]{2,12}.[a-zA-Z0-9]{2,5})\b"
+        }
+    ],
+    "close":
+    [
+        {
+            "key": "\b(api_[a-z0-9A-Z.]{45})\b"
+        }
+    ],
+    "quickmetrics":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_-]{22})\b"
+        }
+    ],
+    "nasdaqdatalink":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_-]{20})\b"
+        }
+    ],
+    "duply":
+    [
+        {
+            "key": "\b([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        },
+        {
+            "key": "\b([0-9A-Z]{7}-[0-9A-Z]{7}-[0-9A-Z]{7}-[0-9A-Z]{7})\b"
+        }
+    ],
+    "pixabay":
+    [
+        {
+            "key": "\b([a-z0-9-]{34})\b"
+        }
+    ],
+    "pollsapi":
+    [
+        {
+            "key": "\b([A-Z0-9]{28})\b"
+        }
+    ],
+    "dwolla":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9]{50})\b"
+        }
+    ],
+    "hellosign":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9/+]{64})\b"
+        }
+    ],
+    "conversiontools":
+    [
+        {
+            "key": "\b(ey[a-zA-Z0-9_.]{157,165})\b"
+        }
+    ],
+    "capsulecrm":
+    [
+        {
+            "key": "\b([a-zA-Z0-9-._+=]{64})\b"
+        }
+    ],
+    "monday":
+    [
+        {
+            "key": "\b(ey[a-zA-Z0-9_.]{210,225})\b"
+        }
+    ],
+    "bulksms":
+    [
+        {
+            "key": "\b([a-fA-Z0-9*]{29})\b"
+        },
+        "\b([A-F0-9-]{37})\b"
+    ],
+    "cashboard":
+    [
+        {
+            "key": "\b([0-9A-Z]{3}-[0-9A-Z]{3}-[0-9A-Z]{3}-[0-9A-Z]{3})\b"
+        },
+        {
+            "key": "\b([0-9a-z]{1,})\b"
+        }
+    ],
+    "tokeet":
+    [
+        {
+            "key": "\b([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        },
+        {
+            "key": "\b([0-9]{10}.[0-9]{4})\b"
+        }
+    ],
+    "mavenlink":
+    [
+        {
+            "key": "\b([0-9a-z]{64})\b"
+        }
+    ],
+    "pagerdutyapikey":
+    [
+        {
+            "key": "\b([a-z]{1}\\+[a-zA-Z]{9}\\-[a-z]{2}\\-[a-z0-9]{5})\b"
+        }
+    ],
+    "simplesat":
+    [
+        {
+            "key": "\b([a-z0-9]{40})"
+        }
+    ],
+    "tly":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{60})\b"
+        }
+    ],
+    "freshbooks":
+    [
+        {
+            "key": "\b([0-9a-z]{64})\b"
+        },
+        {
+            "key": "\b(https://www.[0-9A-Za-z_-]{1,}.com)\b"
+        }
+    ],
+    "boostnote":
+    [
+        {
+            "key": "\b([0-9a-f]{64})\b"
+        }
+    ],
+    "tradier":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{28})\b"
+        }
+    ],
+    "timecamp":
+    [
+        {
+            "key": "\b([0-9a-z]{26})\b"
+        }
+    ],
+    "shortcut":
+    [
+        {
+            "key": "\b([0-9a-f-]{36})\b"
+        }
+    ],
+    "rocketreach":
+    [
+        {
+            "key": "\b([a-z0-9-]{39})\b"
+        }
+    ],
+    "twitter":
+    [
+        {
+            "key": "\b([A-Z]{22}%[a-zA-Z-0-9]{23}%[a-zA-Z-0-9]{6}%[a-zA-Z-0-9]{3}%[a-zA-Z-0-9]{9}%[a-zA-Z-0-9]{52})\b"
+        }
+    ],
+    "getemail":
+    [
+        {
+            "key": "\b([a-zA-Z0-9-]{20})\b"
+        }
+    ],
+    "webflow":
+    [
+        {
+            "key": "\b([a-zA0-9]{64})\b"
+        }
+    ],
+    "midise":
+    [
+        {
+            "key": "midi-662b69edd2[a-zA-Z0-9]{54}"
+        }
+    ],
+    "restpackscreenshotapi":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{48})\b"
+        }
+    ],
+    "storychief":
+    [
+        {
+            "key": "\b([a-zA-Z0-9_\\-.]{940,1000})"
+        }
+    ],
+    "knapsackpro":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "holistic":
+    [
+        {
+            "key": "\b([0-9a-f]{64})\b"
+        }
+    ],
+    "flightstats":
+    [
+        {
+            "key": "\b([0-9a-z]{8})\b"
+        },
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "opengraphr":
+    [
+        {
+            "key": "\b([0-9Aa-zA-Z]{80})\b"
+        }
+    ],
+    "apitemplate":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{39})\b"
+        }
+    ],
+    "nightfall":
+    [
+        {
+            "key": "\b(NF\\-[a-zA-Z0-9]{32})\b"
+        }
+    ],
+    "adafruitio":
+    [
+        {
+            "key": "\b(aio\\_[a-zA-Z0-9]{28})\b"
+        }
+    ],
+    "finage":
+    [
+        {
+            "key": "\b(API_KEY[0-9A-Z]{32})\b"
+        }
+    ],
+    "ftp":
+    [
+        {
+            "key": "\bftp://[\\S]{3,50}:([\\S]{3,50})@[-.%\\W/:]+\b"
+        }
+    ],
+    "zipbooks":
+    [
+        {
+            "key": "\b([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\\.[a-z]+)\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9!=@#$%^]{8,})"
+        }
+    ],
+    "currencycloud":
+    [
+        {
+            "key": "\b([0-9a-z]{64})\b"
+        },
+        "\b([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\\.[a-z]+)\b"
+    ],
+    "apimatic":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{3,20}@[a-zA-Z0-9]{2,12}.[a-zA-Z0-9]{2,5})\b"
+        },
+        {
+            "key": "\b([a-z0-9-\\S]{8,32})\b"
+        }
+    ],
+    "geocodify":
+    [
+        {
+            "key": "\b([0-9a-z]{40})\b"
+        }
+    ],
+    "figmapersonalaccesstoken":
+    [
+        {
+            "key": "\b([0-9]{6}-[0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\b"
+        }
+    ],
+    "magnetic":
+    [
+        {
+            "key": "\b([0-9Aa-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\b"
+        }
+    ],
+    "testingbot":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "zenserp":
+    [
+        {
+            "key": "\b([0-9a-z-]{36})\b"
+        }
+    ],
+    "glitterlyapi":
+    [
+        {
+            "key": "\b([0-9a-z-]{36})\b"
+        }
+    ],
+    "guru":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{3,20}@[a-zA-Z0-9]{2,12}.[a-zA-Z0-9]{2,5})\b"
+        },
+        {
+            "key": "\b([a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12})\b"
+        }
+    ],
+    "klipfolio":
+    [
+        {
+            "key": "\b([0-9a-f]{40})\b"
+        }
+    ],
+    "timezoneapi":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{20})\b"
+        }
+    ],
+    "pivotaltracker":
+    [
+        {
+            "key": "([a-z0-9]{32})"
+        }
+    ],
+    "tallyfy":
+    [
+        {
+            "key": "\b([0-9A-Za-z]{36}\\.[0-9A-Za-z]{264}\\.[0-9A-Za-z\\-\\_]{683})\b"
+        }
+    ],
+    "blocknative":
+    [
+        {
+            "key": "\b([0-9Aa-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b"
+        }
+    ],
+    "teamworkdesk":
+    [
+        {
+            "key": "\b(tkn\\.v1_[0-9A-Za-z]{71}=[ \r\n]{1})"
+        }
+    ],
+    "campayn":
+    [
+        {
+            "key": "\b([a-z0-9]{64})\b"
+        }
+    ],
+    "easyinsight":
+    [
+        {
+            "key": "\b([0-9Aa-zA-Z]{20})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9]{20})\b"
+        }
+    ],
+    "freshdesk":
+    [
+        {
+            "key": "\b([0-9a-z-]{1,}\\.freshdesk\\.com)\b"
+        },
+        {
+            "key": "\b([0-9A-Za-z]{20})\b"
+        }
+    ],
+    "elasticemail":
+    [
+        {
+            "key": "\b([A-Za-z0-9_-]{96})\b"
+        }
+    ],
+    "serpstack":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "getsandbox":
+    [
+        {
+            "key": "\b([a-z0-9-]{40})\b"
+        },
+        {
+            "key": "\b([a-z0-9-]{15,30})\b"
+        }
+    ],
+    "exchangerateapi":
+    [
+        {
+            "key": "\b([a-z0-9]{24})\b"
+        }
+    ],
+    "goodday":
+    [
+        {
+            "key": "\b([a-z0-9]{32})\b"
+        }
+    ],
+    "tefter":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{20})\b"
+        }
+    ],
+    "squareup":
+    [
+        {
+            "key": "\b(sq0idp-[0-9A-Za-z]{22})\b"
+        }
+    ],
+    "abstract":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "postmark":
+    [
+        {
+            "key": "\b([0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12})\b"
+        }
+    ],
+    "sendinbluev":
+    [
+        {
+            "key": "\b(xkeysib\\-[A-Za-z0-9_-]{81})\b"
+        }
+    ],
+    "omnisend":
+    [
+        {
+            "key": "\b([a-z0-9A-Z-]{75})\b"
+        }
+    ],
+    "magicbell":
+    [
+        {
+            "key": "\b([a-zA-Z-0-9]{40})\b"
+        },
+        {
+            "key": "\b([a-zA-Z0-9+._-]+@[a-zA-Z0-9._-]+\\.[a-zA-Z0-9_-]+)\b"
+        }
+    ],
+    "fusebill":
+    [
+        {
+            "key": "\b([a-zA-Z0-9]{88})\b"
+        }
+    ],
+    "lunchmoney":
+    [
+        {
+            "key": "\b([a-f0-9]{50})\b"
+        }
+    ],
+    "loadmill":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{40})\b"
+        }
+    ],
+    "bitbar":
+    [
+        {
+            "key": "\b([0-9a-z]{32})\b"
+        }
+    ],
+    "flowdash":
+    [
+        {
+            "key": "\b([0-9a-zA-Z]{24})\b"
+        }
+    ],
+    "audd":
+    [
+        {
+            "key": "\b([a-z0-9-]{32})\b"
+        }
+    ],
+    "hunter":
+    [
+        {
+            "key": "\b([a-z0-9_-]{40})\b"
+        }
+    ],
+    "bombbomb":
+    [
+        {
+            "key": "\b([a-zA-Z0-9-._]{704})\b"
+        }
+    ]
+}
