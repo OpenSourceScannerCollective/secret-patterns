@@ -9,3 +9,8 @@ comprehensive list of sources to give credit where it is due.
 # TruffleHog 
 
 Most of the secrets detections patterns were copied from [TruffleHog](https://github.com/trufflesecurity/trufflehog)
+
+
+# ChatGPT
+
+Some patterns (PII, and Fincial) were generated using [ChatGPT](https://openai.com/blog/chatgpt)
